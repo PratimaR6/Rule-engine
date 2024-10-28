@@ -65,3 +65,15 @@ Response: Returns the combined AST node.
 Evaluate Rule
 
 POST /api/evaluate
+
+
+Implementation Details
+AST Creation and Evaluation
+createRule: Parses the rule string and constructs the AST.
+combineRules: Merges multiple rule ASTs to optimize evaluations.
+evaluateRule: Recursively evaluates the AST against provided data.
+Error Handling
+Includes error handling for parsing and evaluation failures.
+
+Testing
+Unit tests are implemented for each function to ensure correctness.
